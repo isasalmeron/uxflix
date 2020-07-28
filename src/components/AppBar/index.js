@@ -1,19 +1,19 @@
 import React from 'react';
 
-import Logo from '../../assets/img/Logo.png';
-import './AppBar.css';
+import LogoImg from '../../assets/img/LogoImg.png';
 import Button from '../Button';
+import { Logo, AppBarWrapper } from './styles';
 
 function AppBar() {
   return (
-    <nav className="AppBar">
+    <AppBarWrapper>
       <a href="/">
-        <img className="Logo" src={Logo} alt="UXflix logo"/>
+        <Logo href="/" src={LogoImg} alt="UXflix logo"/>
       </a>
-      <Button as="a" className="ButtonLink" href="/">
+      <Button as="a" href="/">
         Novo vídeo
       </Button>
-    </nav>
+    </AppBarWrapper>
   );
 }
 

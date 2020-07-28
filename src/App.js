@@ -9,6 +9,7 @@ import dadosIniciais from './data/dados_iniciais.json';
 
 const AppWrapper = styled.div`
   background: var(--grayDark);
+  padding-top: 74px;
 `;
 
 function App() {

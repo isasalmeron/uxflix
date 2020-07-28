@@ -11,6 +11,6 @@ export const FooterBase = styled.footer`
   justify-content: center;
 
   @media (max-width: 800px) {
-    padding: 0px 24px 80px;
+    padding: 0px 24px;
   }
 `;
