@@ -5,16 +5,16 @@ import VideoCard from './components/VideoCard';
 function VideoCardGroup({
   ignoreFirstVideo,
   category,
+  color,
 }) {
   const categoryTitle = category.titulo;
-  const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
   const videos = category.videos;
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
         <>
-          <Title style={{ backgroundColor: categoryColor || 'red' }}>
+          <Title style={{ backgroundColor: color }}>
             {categoryTitle}
           </Title>
           {categoryExtraLink && 
@@ -35,7 +35,7 @@ function VideoCardGroup({
               <VideoCard
                 videoTitle={video.titulo}
                 videoURL={video.url}
-                categoryColor={categoryColor}
+                categoryColor={color}
               />
             </li>
           );

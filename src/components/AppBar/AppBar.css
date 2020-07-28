@@ -1,15 +1,17 @@
 .Logo {
-  max-width: 168px;
+  max-width: 90px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 @media (max-width: 800px) {
   .Logo {
-    max-width: 105px;
+    max-width: 90px;
   }
 }
 
 .AppBar {
   width: 100%;
-  height: 94px;
+  height: 74px;
   z-index: 100;
 
   display: flex;
@@ -20,56 +22,35 @@
   top: 0;
   left: 0;
   right: 0;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0px 56px;
 
   background: var(--black);
   border-bottom: 2px solid var(--primary);
 }
 body {
-  --bodyPaddingTop: 94px;
-  padding-top: var(--bodyPaddingTop);
+  padding-top: 74px;
 }
 @media (max-width: 800px) {
   .AppBar {
-    height: 40px;
-    justify-content: center;
+    height: 74px;
+    padding: 0px 24px;
   }
   body {
-    --bodyPaddingTop: 40px;
-    padding-top: var(--bodyPaddingTop);
+    padding-top: 74px;
   }
-}
-
-.ButtonLink {
-  color: var(--white);
-  border: 1px solid var(--white);
-  box-sizing: border-box;
-  cursor: pointer;
-  padding: 16px 24px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  outline: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  transition: opacity .3s;
-}
-.ButtonLink:hover,
-.ButtonLink:focus {
-  opacity: .5;
 }
 
 @media (max-width: 800px) {
   a.ButtonLink {
-    position: fixed;
+    /* position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     background: var(--primary);
-    border-radius: 0;
-    border: 0;
+    border-radius: 5px;
+    border: 0; */
     text-align: center;
+    padding: 8px;
+    /* margin: 0px 72px 24px; */
   }
 }

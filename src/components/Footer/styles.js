@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
-
 export const FooterBase = styled.footer`
   background: var(--black);
   border-top: 2px solid var(--primary);
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 0px 56px;
   color: var(--white);
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   @media (max-width: 800px) {
-    margin-bottom: 50px;
+    padding: 0px 24px 80px;
   }
 `;
