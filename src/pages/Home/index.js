@@ -1,21 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 
-import AppBar from './components/AppBar';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer';
-import dadosIniciais from './data/dados_iniciais.json';
+import PageDefault from '../../components/PageDefault';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import dadosIniciais from '../../data/dados_iniciais.json';
 
-const AppWrapper = styled.div`
-  background: var(--grayDark);
-  padding-top: 74px;
-`;
-
-function App() {
+function Home() {
   return (
-    <AppWrapper>
-      <AppBar />
+    <PageDefault>
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
@@ -42,9 +34,8 @@ function App() {
         color="#FF3DC1"
         category={dadosIniciais.categorias[4]}
       />         
-      <Footer />
-    </AppWrapper>
+    </PageDefault>
   );
 }
 
-export default App;
+export default Home;

@@ -19,3 +19,10 @@ body {
 a {
   color: inherit;
 } 
+
+#root {
+  min-height: 100vh;
+  background-color: var(--grayDark);
+  display: flex;
+  flex-direction: column;
+}
