@@ -9,6 +9,7 @@ export const ContentAreaContainer = styled.div`
   justify-content: center;
   position: absolute;
   z-index: 10;
+  min-width: fill-available;
 `;
 
 ContentAreaContainer.Item = styled.div`
