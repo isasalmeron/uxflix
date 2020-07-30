@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { BannerContainer, ContentAreaContainer } from './styles';
 
-export default function Banner({ image, title, description }) {
+function Banner({ image, title, description }) {
   return (
     <BannerContainer backgroundImage={image}>
       <ContentAreaContainer>
@@ -18,3 +19,16 @@ export default function Banner({ image, title, description }) {
     </BannerContainer>
   );
 }
+
+Banner.defaultProps = {
+  title: '',
+  description: '',
+};
+
+Banner.propTypes = {
+  image: PropTypes.node.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
+};
+
+export default Banner;

@@ -12,10 +12,10 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
-      <Route path="/cadastro/video" component={RegisterVideo}/>
-      <Route path="/cadastro/categoria" component={RegisterCategory}/>
-      <Route component={NotFound}/>
+      <Route path="/cadastro/video" component={RegisterVideo} />
+      <Route path="/cadastro/categoria" component={RegisterCategory} />
+      <Route component={NotFound} />
     </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

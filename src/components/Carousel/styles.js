@@ -25,3 +25,14 @@ export const VideoCardGroupContainer = styled.section`
   margin-left: 5%;
   margin-bottom: 40px;
 `;
+
+export const Item = styled.li`
+  margin-right: 16px;
+  
+  img {
+    margin: 16px;
+    width: 298px;
+    height: 197px;
+    object-fit: cover;
+  }
+`;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const SecondaryButton = styled.button`
   color: var(--white);
@@ -28,7 +28,7 @@ export const PrimaryButton = styled(SecondaryButton)`
   background-color: var(--primary);
 
   @media (min-width: 800px) {
-    font-size: 24px;
-    padding: 16px 32px;
+    font-size: 20px;
+    padding: 12px 28px;
   }
 `;

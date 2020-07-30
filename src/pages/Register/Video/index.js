@@ -14,7 +14,7 @@ function RegisterVideo() {
         </Link>
       </FormWrapper>
     </PageDefault>
-  )
+  );
 }
 
 export default RegisterVideo;

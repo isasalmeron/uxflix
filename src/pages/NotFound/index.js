@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { PrimaryButton } from '../../components/Button';
 import PageDefault from '../../components/PageDefault';
 import Banner from '../../components/Banner';
-import NotFoundImg from '../../assets/img/notFound.png'
+import NotFoundImg from '../../assets/img/NotFound.png';
 
 const ButtonWrapper = styled.div`
   text-align: center;
@@ -26,8 +26,8 @@ function NotFound() {
       <Wrapper>
         <Banner
           image={NotFoundImg}
-          title={"Você se perdeu?"}
-          description={"Infelizmente não localizamos essa página. Você pode encontrar muitos outros títulos na página inicial."}
+          title="Você se perdeu?"
+          description="Infelizmente não localizamos essa página. Você pode encontrar muitos outros títulos na página inicial."
         />
         <ButtonWrapper>
           <PrimaryButton as={Link} to="/">

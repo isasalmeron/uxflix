@@ -11,7 +11,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Conversa com a Tereza Alux, product designer no Mercado Livre e diretora LATAM do Ladies that UX."}
+        videoDescription="Conversa com a Tereza Alux, product designer no Mercado Livre e diretora LATAM do Ladies that UX."
       />
       <Carousel
         ignoreFirstVideo
@@ -25,15 +25,15 @@ function Home() {
       <Carousel
         color="#7C2EE5"
         category={dadosIniciais.categorias[2]}
-      />      
+      />
       <Carousel
         color="#33C0FF"
         category={dadosIniciais.categorias[3]}
-      />      
+      />
       <Carousel
         color="#FF3DC1"
         category={dadosIniciais.categorias[4]}
-      />         
+      />
     </PageDefault>
   );
 }

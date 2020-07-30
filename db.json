@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "UXNOW",
+      "description": "Vídeos do canal UXNOW",
+      "color": "#E56060"
+    },
+    {
+      "id": 2,
+      "name": "UX Unicórnio",
+      "description": "Vídeos do canal UX Unicórnio",
+      "color": "#E5D500"
+    },
+    {
+      "id": 3,
+      "name": "Fundamentos de UX",
+      "description": "Playlist Fundamentos de UX do canal UXNOW",
+      "color": "#7C2EE5"
+    },
+    {
+      "id": 4,
+      "name": "Analisando cases",
+      "description": "Playlist Analisando cases do canal UX Unicórnio",
+      "color": "#33C0FF"
+    },
+    {
+      "id": 5,
+      "name": "Um pouco de UI",
+      "description": "Vídeos do canal UILab",
+      "color": "#FF3DC1"
+    }
+  ]
+}

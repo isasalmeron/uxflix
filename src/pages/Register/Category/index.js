@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import FormWrapper from '../../../components/FormWrapper';
 import PageDefault from '../../../components/PageDefault';
 import Field from '../../../components/Field';
+import { PrimaryButton } from '../../../components/Button';
 
 function RegisterCategory() {
   const initialCategory = {
@@ -31,21 +32,27 @@ function RegisterCategory() {
     setCategory(initialCategory);
   };
 
+  useEffect(() => {
+    fetch('http://localhost:8080/categories').then(async (response) => {
+      const formattedResponse = await response.json();
+      setCategories([...formattedResponse]);
+    });
+  }, []);
+
   return (
     <PageDefault>
       <FormWrapper>
         <h1>Nova categoria</h1>
         <form onSubmit={handleSubmitForm}>
           <Field
-            label="Nome:"
-            type="text"
+            label="Nome da categoria"
             name="name"
             value={category.name}
             onChange={handleOnChange}
           />
           <Field
-            label="Descrição:"
-            type="text"
+            label="Descrição"
+            type="textarea"
             name="description"
             value={category.description}
             onChange={handleOnChange}
@@ -57,25 +64,23 @@ function RegisterCategory() {
             value={category.color}
             onChange={handleOnChange}
           />
-          <button>
+          <PrimaryButton>
             Cadastrar
-          </button>
+          </PrimaryButton>
         </form>
         <ul>
-          {categories.map((category, index) => {
-            return (
-              <li key={index}>
-                {category.name}
-              </li>
-            );
-          })}
+          {categories.map((actualCategory) => (
+            <li key={actualCategory.name}>
+              {actualCategory.name}
+            </li>
+          ))}
         </ul>
         <Link to="/">
           Ir para home
         </Link>
       </FormWrapper>
     </PageDefault>
-  )
+  );
 }
 
 export default RegisterCategory;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Heart from '../../assets/img/heart.png';
+import Heart from '../../assets/img/Heart.png';
 import { FooterBase, TextLink, ImgWrapper } from './styles';
 
 function Footer() {
