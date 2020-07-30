@@ -9,7 +9,7 @@ function Footer() {
       <p>
         Feito com
         {' '}
-        <ImgWrapper src={Heart} alt="UXflix logo"/>
+        <ImgWrapper src={Heart} alt="UXflix logo" />
         {' '}
         por
         {' '}
