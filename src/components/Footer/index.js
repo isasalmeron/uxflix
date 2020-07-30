@@ -1,16 +1,17 @@
 import React from 'react';
 
-import LogoImg from '../../assets/img/LogoImg.png';
-import { FooterBase, TextLink, LogoWrapper } from './styles';
+import Heart from '../../assets/img/heart.png';
+import { FooterBase, TextLink, ImgWrapper } from './styles';
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <LogoWrapper className="Logo" src={LogoImg} alt="UXflix logo" />
-      </a>
       <p>
-        Criado por
+        Feito com
+        {' '}
+        <ImgWrapper src={Heart} alt="UXflix logo"/>
+        {' '}
+        por
         {' '}
         <TextLink href="https://www.linkedin.com/in/isabelasalmeron/">
           Isabela Salmeron

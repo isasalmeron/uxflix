@@ -21,12 +21,6 @@ export const TextLink = styled.a`
   text-decoration: none;
 `;
 
-export const LogoWrapper = styled.img`
-  max-width: 90px;
-  padding: 16px 0px;
-  margin-right: 24px;
-
-  @media (max-width: 800px) {
-    max-width: 90px;
-  }
+export const ImgWrapper = styled.img`
+  max-width: 16px;
 `;
