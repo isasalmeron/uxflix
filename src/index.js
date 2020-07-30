@@ -6,6 +6,7 @@ import './index.css';
 import Home from './pages/Home';
 import RegisterVideo from './pages/Register/Video';
 import RegisterCategory from './pages/Register/Category';
+import NotFound from './pages/NotFound';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -13,7 +14,7 @@ ReactDOM.render(
       <Route path="/" component={Home} exact />
       <Route path="/cadastro/video" component={RegisterVideo}/>
       <Route path="/cadastro/categoria" component={RegisterCategory}/>
-      <Route component={() => (<div>Página 404</div>)}/>
+      <Route component={NotFound}/>
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

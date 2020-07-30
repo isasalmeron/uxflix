@@ -1,18 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import LogoImg from '../../assets/img/LogoImg.png';
-import { FooterBase } from './styles';
-
-const LogoWrapper = styled.img`
-  max-width: 90px;
-  padding: 16px 0px;
-  margin-right: 24px;
-
-  @media (max-width: 800px) {
-    max-width: 90px;
-  }
-`;
+import { FooterBase, TextLink, LogoWrapper } from './styles';
 
 function Footer() {
   return (
@@ -21,11 +10,17 @@ function Footer() {
         <LogoWrapper className="Logo" src={LogoImg} alt="UXflix logo" />
       </a>
       <p>
-        Criado durante a
+        Criado por
         {' '}
-        <a href="https://www.alura.com.br/">
+        <TextLink href="https://www.linkedin.com/in/isabelasalmeron/">
+          Isabela Salmeron
+        </TextLink>
+        {' '}
+        durante a
+        {' '}
+        <TextLink href="https://www.alura.com.br/">
           Imersão React da Alura
-        </a>
+        </TextLink>
       </p>
     </FooterBase>
   );

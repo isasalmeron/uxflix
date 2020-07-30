@@ -9,8 +9,24 @@ export const FooterBase = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 8px;
 
   @media (max-width: 800px) {
     padding: 0px 24px;
+  }
+`;
+
+export const TextLink = styled.a`
+  color: var(--primary);
+  text-decoration: none;
+`;
+
+export const LogoWrapper = styled.img`
+  max-width: 90px;
+  padding: 16px 0px;
+  margin-right: 24px;
+
+  @media (max-width: 800px) {
+    max-width: 90px;
   }
 `;

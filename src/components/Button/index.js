@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
-const Button = styled.button`
+export const SecondaryButton = styled.button`
   color: var(--white);
+  background-color: var(--black);
   border: 1px solid var(--primary);
   box-sizing: border-box;
   cursor: pointer;
@@ -14,17 +15,20 @@ const Button = styled.button`
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
+  width: fit-content;
   transition: opacity .3s;
 
   &:hover,
   &:focus {
     opacity: .5;
   }
-
-  @media (max-width: 800px) {
-    text-align: center;
-    padding: 8px;
-  }
 `;
 
-export default Button;
+export const PrimaryButton = styled(SecondaryButton)`
+  background-color: var(--primary);
+
+  @media (min-width: 800px) {
+    font-size: 24px;
+    padding: 16px 32px;
+  }
+`;

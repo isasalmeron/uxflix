@@ -1,12 +1,11 @@
 import React from 'react';
 
-import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
+import { VideoCardGroupContainer, Title } from './styles';
 import VideoCard from './VideoCard';
 import Slider, { SliderItem } from './Slider';
 
 function Carousel({ ignoreFirstVideo, category, color }) {
   const categoryTitle = category.titulo;
-  const categoryExtraLink = category.link_extra;
   const videos = category.videos;
 
   return (
@@ -16,11 +15,6 @@ function Carousel({ ignoreFirstVideo, category, color }) {
           <Title style={{ backgroundColor: color }}>
             {categoryTitle}
           </Title>
-          {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
-            </ExtraLink>
-          }
         </>
       )}
       <Slider>

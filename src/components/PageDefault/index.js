@@ -3,10 +3,10 @@ import React from 'react';
 import AppBar from '../AppBar';
 import Footer from '../Footer';
 
-function PageDefault({ children }) {
+function PageDefault({ children, hasButton }) {
   return (
     <>
-      <AppBar />
+      <AppBar hasButton={hasButton} />
         {children}
       <Footer />
     </>

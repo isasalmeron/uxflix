@@ -1,41 +1,31 @@
 import styled from 'styled-components';
 
-export const ContentAreaContainer = styled.section`
+export const ContentAreaContainer = styled.div`
   margin-left: 5%;
   margin-right: 5%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
   z-index: 10;
-
-  @media (max-width: 800px) {
-    padding-top: 100px;
-    flex-direction: column;
-  }
 `;
 
 ContentAreaContainer.Item = styled.div`
   width: 50%;
-  display: inline-block;
-  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+  align-self: flex-end;
 
   @media (max-width: 800px) {
     width: 100%;
   }
 `;
 
-ContentAreaContainer.Description = styled.p`
-  @media (max-width: 800px) {
-    display: none;
-  }
-`;
-
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 32px;
@@ -43,10 +33,20 @@ ContentAreaContainer.Title = styled.h2`
   @media (max-width: 800px) {
     font-size: 32px;
     text-align: center;
+    margin-bottom: 0px;
   }
 `;
 
-export const BannerMainContainer = styled.section`
+ContentAreaContainer.Description = styled.p`
+  font-size: 24px;
+
+  @media (max-width: 800px) {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+`;
+
+export const BannerContainer = styled.section`
   height: 80vh;
   position: relative;
   color: #fff;
@@ -56,7 +56,7 @@ export const BannerMainContainer = styled.section`
 
   @media (max-width: 800px) {
     height: auto;
-    min-height: 50vh;
+    min-height: 65vh;
   }
 
   &:after,
@@ -79,29 +79,5 @@ export const BannerMainContainer = styled.section`
   &:after {
     bottom: 0;
     background: linear-gradient(0deg, #141414 0%, transparent 100%);
-  }
-`;
-
-export const WatchButton = styled.button`
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  cursor: pointer;
-  padding: 16px 40px;
-  font-style: normal;
-  font-size: 16px;
-  outline: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  border: 1px solid transparent;
-  color: var(--white);
-  background: var(--black);
-  border-color: var(--primary);
-  transition: opacity .3s;
-  display: none;
-  margin: 0 auto;
-
-  @media (max-width: 800px) {
-    display: block;
   }
 `;

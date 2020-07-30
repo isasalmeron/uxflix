@@ -23,6 +23,7 @@ export const AppBarWrapper = styled.nav`
   padding: 0px 56px;
   background: var(--black);
   border-bottom: 2px solid var(--primary);
+  box-shadow: 1px -13px 20px 20px hsla(0, 0%, 100%, .281);
 
   @media (max-width: 800px) {
     padding: 0px 24px;
