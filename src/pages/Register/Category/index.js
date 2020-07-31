@@ -33,7 +33,11 @@ function RegisterCategory() {
   };
 
   useEffect(() => {
-    fetch('http://localhost:8080/categories').then(async (response) => {
+    const SERVER_URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categories'
+      : 'https://uxflix.herokuapp.com/categories';
+
+    fetch(SERVER_URL).then(async (response) => {
       const formattedResponse = await response.json();
       setCategories([...formattedResponse]);
     });
