@@ -30,5 +30,253 @@
       "description": "Vídeos do canal UILab",
       "color": "#FF3DC1"
     }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Ladies that UX Brasil",
+      "url": "https://www.youtube.com/watch?v=kb0O9DqMdcM"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "Como aproveitar melhor seu curso de UX",
+      "url": "https://www.youtube.com/watch?v=uPqYwDKV_7w"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Três novos livros de design para a minha coleção",
+      "url": "https://www.youtube.com/watch?v=1B9hpwA3j2c"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "O que mudou agora que o mundo mudou?",
+      "url": "https://www.youtube.com/watch?v=rleeJHEwkjk"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "title": "Criatividade e inspiração",
+      "url": "https://www.youtube.com/watch?v=nm7SiONDS2Q"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "title": "Portfólio de designer júnior - Dicas e análise",
+      "url": "https://www.youtube.com/watch?v=1WI-AHWaHgs"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "title": "Respondendo dúvidas sobre UX",
+      "url": "https://www.youtube.com/watch?v=5nv_JiSVLHs"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "title": "Não sou criativo, posso ser UX Designer?",
+      "url": "https://www.youtube.com/watch?v=NavYyEpKj0U"
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "title": "Como atingir objetivos de carreira",
+      "url": "https://www.youtube.com/watch?v=ukiaI2-xPnM"
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "title": "Pesquisas em UX",
+      "url": "https://www.youtube.com/watch?v=ovnebhk05vM"
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "title": "Descobrindo produtos com bom design e UX",
+      "url": "https://www.youtube.com/watch?v=v8r_AIez4gI"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "title": "Você sabe o que é UX design mesmo?",
+      "url": "https://www.youtube.com/watch?v=pih-M_6HNuc"
+    },
+    {
+      "id": 13,
+      "categoryId": 3,
+      "title": "O que é UX",
+      "url": "https://www.youtube.com/watch?v=WAi6ixIfdd4&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=1"
+    },
+    {
+      "id": 14,
+      "categoryId": 3,
+      "title": "O que é design?",
+      "url": "https://www.youtube.com/watch?v=zaFEEvHZgjw&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=2"
+    },
+    {
+      "id": 15,
+      "categoryId": 3,
+      "title": "Como fazer UX",
+      "url": "https://www.youtube.com/watch?v=ii_yO_at8Do&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=3"
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "title": "Como definir o objetivo do seu produto",
+      "url": "https://www.youtube.com/watch?v=h7uE_F0zkm8&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=4"
+    },
+    {
+      "id": 17,
+      "categoryId": 3,
+      "title": "Como conhecer seu usuário",
+      "url": "https://www.youtube.com/watch?v=KnFJAhiClnE&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=5"
+    },
+    {
+      "id": 18,
+      "categoryId": 3,
+      "title": "O que é uma persona?",
+      "url": "https://www.youtube.com/watch?v=kdUk7DZS6aQ&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=6"
+    },
+    {
+      "id": 19,
+      "categoryId": 3,
+      "title": "Como criar personas?",
+      "url": "https://www.youtube.com/watch?v=q_NrzJBS7QI&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=7"
+    },
+    {
+      "id": 20,
+      "categoryId": 3,
+      "title": "O que é escopo?",
+      "url": "https://www.youtube.com/watch?v=jAN1330de-s&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=8"
+    },
+    {
+      "id": 21,
+      "categoryId": 3,
+      "title": "O que é arquitetura de informação?",
+      "url": "https://www.youtube.com/watch?v=vmvSMYaV4oE&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=9"
+    },
+    {
+      "id": 22,
+      "categoryId": 3,
+      "title": "O que é um wireframe?",
+      "url": "https://www.youtube.com/watch?v=INPlcg_BsGc&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=10"
+    },
+    {
+      "id": 23,
+      "categoryId": 3,
+      "title": "O que é design de interação?",
+      "url": "https://www.youtube.com/watch?v=7TVP7oxjl1U&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=11"
+    },
+    {
+      "id": 24,
+      "categoryId": 3,
+      "title": "O que é uma interface?",
+      "url": "https://www.youtube.com/watch?v=BD4CnI2Zc1s&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=12"
+    },
+    {
+      "id": 25,
+      "categoryId": 3,
+      "title": "Como fazer uma interface mais fácil",
+      "url": "https://www.youtube.com/watch?v=mgOYINElFqI&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=13"
+    },
+    {
+      "id": 26,
+      "categoryId": 3,
+      "title": "Como fazer uma interface mais difícil?",
+      "url": "https://www.youtube.com/watch?v=UkEXANW08lo&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=14"
+    },
+    {
+      "id": 27,
+      "categoryId": 3,
+      "title": "Quem é responsável pela UX?",
+      "url": "https://www.youtube.com/watch?v=y39uwOsY0L0&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=15"
+    },
+    {
+      "id": 28,
+      "categoryId": 4,
+      "title": "Facilitando processo de compra em petshops",
+      "url": "https://www.youtube.com/watch?v=eZmBbok8N88"
+    },
+    {
+      "id": 29,
+      "categoryId": 4,
+      "title": "Apoiando vítimas de violência doméstica",
+      "url": "https://www.youtube.com/watch?v=96geDwJa5BI"
+    },
+    {
+      "id": 30,
+      "categoryId": 4,
+      "title": "Ajudando academias a sobreviver no isolamento",
+      "url": "https://www.youtube.com/watch?v=rSBCV9247gM&t=1553s"
+    },
+    {
+      "id": 31,
+      "categoryId": 4,
+      "title": "Diminuindo acidentes com uso de celular no volante",
+      "url": "https://www.youtube.com/watch?v=22BlzbK9aVY"
+    },
+    {
+      "id": 32,
+      "categoryId": 4,
+      "title": "Empoderando idosos e ajudando comércios locais",
+      "url": "https://www.youtube.com/watch?v=wuwaVXBOKsk&t=1s"
+    },
+    {
+      "id": 33,
+      "categoryId": 4,
+      "title": "Conectando psicólogos e pacientes",
+      "url": "https://www.youtube.com/watch?v=gfLuaYI4ldQ&t=10s"
+    },
+    {
+      "id": 34,
+      "categoryId": 5,
+      "title": "A interface precisa de espaço",
+      "url": "https://www.youtube.com/watch?v=TmWjsm1DHRw"
+    },
+    {
+      "id": 35,
+      "categoryId": 5,
+      "title": "O que é legibilidade e leiturabilidade",
+      "url": "https://www.youtube.com/watch?v=NFBmxiwqg8Q"
+    },
+    {
+      "id": 36,
+      "categoryId": 5,
+      "title": "Dicas de como escolher typefaces para a sua ui",
+      "url": "https://www.youtube.com/watch?v=mapdbKX_dNw"
+    },
+    {
+      "id": 37,
+      "categoryId": 5,
+      "title": "Cores e seus significados parte 1",
+      "url": "https://www.youtube.com/watch?v=lDO7iLWBf3Q"
+    },
+    {
+      "id": 38,
+      "categoryId": 5,
+      "title": "Cores e seus significados parte 2",
+      "url": "https://www.youtube.com/watch?v=kmoahqQAFjM"
+    },
+    {
+      "id": 39,
+      "categoryId": 5,
+      "title": "Você conhece a anatomia de um link?",
+      "url": "https://www.youtube.com/watch?v=kLQy_PiT7h0"
+    },
+    {
+      "id": 40,
+      "categoryId": 5,
+      "title": "Três ferramentas para testar contraste de cor",
+      "url": "https://www.youtube.com/watch?v=Y9qp2jr52ZQ"
+    },
+    {
+      "title": "Três ferramentas para testar contraste de cor",
+      "url": "https://www.youtube.com/watch?v=Y9qp2jr52ZQ",
+      "categoryId": 5,
+      "id": 41
+    }
   ]
 }

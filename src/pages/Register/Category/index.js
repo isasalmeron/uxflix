@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
+import useForm from '../../../hooks/useForm';
 import FormWrapper from '../../../components/FormWrapper';
 import PageDefault from '../../../components/PageDefault';
 import Field from '../../../components/Field';
@@ -12,24 +12,13 @@ function RegisterCategory() {
     description: '',
     color: '',
   };
+  const { values, handleOnChange, clearForm } = useForm(initialCategory);
   const [categories, setCategories] = useState([]);
-  const [category, setCategory] = useState(initialCategory);
-
-  const setValue = (field, value) => {
-    setCategory({
-      ...category,
-      [field]: value,
-    });
-  };
-
-  const handleOnChange = ({ target }) => {
-    setValue(target.getAttribute('name'), target.value);
-  };
 
   const handleSubmitForm = (event) => {
     event.preventDefault();
-    setCategories([...categories, category]);
-    setCategory(initialCategory);
+    setCategories([...categories, values]);
+    clearForm();
   };
 
   useEffect(() => {
@@ -51,37 +40,40 @@ function RegisterCategory() {
           <Field
             label="Nome da categoria"
             name="name"
-            value={category.name}
+            value={values.name}
             onChange={handleOnChange}
           />
           <Field
             label="Descrição"
             type="textarea"
             name="description"
-            value={category.description}
+            value={values.description}
             onChange={handleOnChange}
           />
           <Field
             label="Cor:"
             type="color"
             name="color"
-            value={category.color}
+            value={values.color}
             onChange={handleOnChange}
           />
-          <PrimaryButton>
+          <PrimaryButton type="submit">
             Cadastrar
           </PrimaryButton>
         </form>
-        <ul>
-          {categories.map((actualCategory) => (
-            <li key={actualCategory.name}>
-              {actualCategory.name}
-            </li>
-          ))}
-        </ul>
-        <Link to="/">
-          Ir para home
-        </Link>
+        {categories.length === 0 ? (
+          <div>
+            Loading...
+          </div>
+        ) : (
+          <ul>
+            {categories.map((actualCategory) => (
+              <li key={actualCategory.name}>
+                {actualCategory.name}
+              </li>
+            ))}
+          </ul>
+        )}
       </FormWrapper>
     </PageDefault>
   );

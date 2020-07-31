@@ -5,31 +5,28 @@ import { VideoCardGroupContainer, Title, Item } from './styles';
 import VideoCard from './VideoCard';
 import Slider from './Slider';
 
-function Carousel({ ignoreFirstVideo, category, color }) {
-  const categoryTitle = category.titulo;
-  const { videos } = category;
-
+function Carousel({ ignoreFirstVideo, category }) {
   return (
     <VideoCardGroupContainer>
-      {categoryTitle && (
+      {category.name && (
         <>
-          <Title style={{ backgroundColor: color }}>
-            {categoryTitle}
+          <Title style={{ backgroundColor: category.color }}>
+            {category.name}
           </Title>
         </>
       )}
       <Slider>
-        {videos.map((video, index) => {
+        {category.videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
 
           return (
-            <Item key={video.titulo}>
+            <Item key={video.title}>
               <VideoCard
-                videoTitle={video.titulo}
+                videoTitle={video.title}
                 videoURL={video.url}
-                categoryColor={color}
+                categoryColor={category.color}
               />
             </Item>
           );
@@ -46,10 +43,10 @@ Carousel.defaultProps = {
 Carousel.propTypes = {
   ignoreFirstVideo: PropTypes.bool,
   category: PropTypes.shape({
-    titulo: PropTypes.string,
+    name: PropTypes.string,
     videos: PropTypes.array,
+    color: PropTypes.string,
   }).isRequired,
-  color: PropTypes.string.isRequired,
 };
 
 export default Carousel;

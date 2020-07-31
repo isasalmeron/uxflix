@@ -16,25 +16,19 @@ const ButtonWrapper = styled.div`
   }
 `;
 
-const Wrapper = styled.div`
-  flex: 1;
-`;
-
 function NotFound() {
   return (
     <PageDefault>
-      <Wrapper>
-        <Banner
-          image={NotFoundImg}
-          title="Você se perdeu?"
-          description="Infelizmente não localizamos essa página. Você pode encontrar muitos outros títulos na página inicial."
-        />
-        <ButtonWrapper>
-          <PrimaryButton as={Link} to="/">
-            Voltar para a página inicial
-          </PrimaryButton>
-        </ButtonWrapper>
-      </Wrapper>
+      <Banner
+        image={NotFoundImg}
+        title="Você se perdeu?"
+        description="Infelizmente não localizamos essa página. Você pode encontrar muitos outros títulos na página inicial."
+      />
+      <ButtonWrapper>
+        <PrimaryButton as={Link} to="/">
+          Voltar para a página inicial
+        </PrimaryButton>
+      </ButtonWrapper>
     </PageDefault>
   );
 }
