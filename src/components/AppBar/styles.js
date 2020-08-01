@@ -1,31 +1,31 @@
 import styled from 'styled-components';
 
+import { withStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+
 export const Logo = styled.img`
   max-width: 90px;
-  padding: 16px 0px;
-
-  @media (max-width: 800px) {
-    max-width: 90px;
-  }
 `;
 
-export const AppBarWrapper = styled.nav`
-  width: 100%;
-  height: 74px;
-  z-index: 100;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 0px 56px;
-  background: var(--black);
-  border-bottom: 2px solid var(--primary);
-  box-shadow: 1px -13px 20px 20px hsla(0, 0%, 100%, .281);
+export const AppBarWrapper = withStyles({
+  root: {
+    height: '74px',
+    background: 'black',
+    justifyContent: 'center',
+    borderBottom: '2px solid #CD0CFF',
+    boxShadow: '1px -13px 20px 20px hsla(0, 0%, 100%, .281)',
+  },
+})(AppBar);
 
-  @media (max-width: 800px) {
-    padding: 0px 24px;
-  }
-`;
+export const ToolbarWrapper = withStyles({
+  root: {
+    width: '100%',
+    justifyContent: 'space-between',
+    padding: '0px 40px',
+
+    '@media (max-width: 900px)': {
+      padding: '0px 0px 0px 8px',
+    },
+  },
+})(Toolbar);

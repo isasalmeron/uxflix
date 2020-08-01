@@ -1,34 +1,43 @@
-import styled from 'styled-components';
+import { withStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 
-export const SecondaryButton = styled.button`
-  color: var(--white);
-  background-color: var(--black);
-  border: 1px solid var(--primary);
-  box-sizing: border-box;
-  cursor: pointer;
-  padding: 8px 24px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  font-style: normal;
-  font-size: 16px;
-  outline: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  width: fit-content;
-  transition: opacity .3s;
+export const PrimaryButton = withStyles({
+  root: {
+    color: 'white',
+    backgroundColor: '#CD0CFF',
+    textTransform: 'inherit',
+    padding: '8px 24px',
+    margin: '16px',
+    fontSize: '16px',
+    fontWeight: 'normal',
 
-  &:hover,
-  &:focus {
-    opacity: .5;
-  }
-`;
+    '@media (min-width: 800px)': {
+      fontSize: '20px',
+      padding: '12px 28px',
+    },
 
-export const PrimaryButton = styled(SecondaryButton)`
-  background-color: var(--primary);
+    '&:hover, &$focusVisible': {
+      opacity: '0.7',
+      backgroundColor: '#CD0CFF',
+      transition: 'opacity .3s ',
+    },
+  },
+})(Button);
 
-  @media (min-width: 800px) {
-    font-size: 20px;
-    padding: 12px 28px;
-  }
-`;
+export const SecondaryButton = withStyles({
+  root: {
+    backgroundColor: 'black',
+    border: '1px solid #CD0CFF',
+
+    '@media (min-width: 800px)': {
+      fontSize: '16px',
+      padding: '8px 28px',
+    },
+
+    '&:hover, &$focusVisible': {
+      opacity: '1',
+      border: '2px solid #CD0CFF',
+      backgroundColor: 'black',
+    },
+  },
+})(PrimaryButton);

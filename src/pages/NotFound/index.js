@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { PrimaryButton } from '../../components/Button';
 import PageDefault from '../../components/PageDefault';
 import Banner from '../../components/Banner';
-import NotFoundImg from '../../assets/img/NotFound.png';
+import NotFoundImg from '../../assets/images/NotFound.png';
 
 const ButtonWrapper = styled.div`
   text-align: center;

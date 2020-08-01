@@ -1,22 +1,33 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import LogoImg from '../../assets/img/LogoImg.png';
+import IconButton from '@material-ui/core/IconButton';
+import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
+
+import LogoImg from '../../assets/images/LogoImg.png';
 import { SecondaryButton } from '../Button';
-import { Logo, AppBarWrapper } from './styles';
+import { Logo, AppBarWrapper, ToolbarWrapper } from './styles';
 
 function AppBar({ hasButton }) {
+  const history = useHistory();
+  const handleOnClickIcon = () => history.push('/');
+
   return (
-    <AppBarWrapper>
-      <Link to="/">
-        <Logo src={LogoImg} alt="UXflix logo" />
-      </Link>
-      {hasButton && (
-        <SecondaryButton as={Link} to="/cadastro/video">
-          Novo vídeo
-        </SecondaryButton>
-      )}
+    <AppBarWrapper position="sticky">
+      <ToolbarWrapper>
+        <IconButton
+          aria-label="home"
+          onClick={handleOnClickIcon}
+        >
+          <Logo src={LogoImg} />
+        </IconButton>
+        {hasButton && (
+          <SecondaryButton startIcon={<VideoLibraryIcon />}>
+            Novo vídeo
+          </SecondaryButton>
+        )}
+      </ToolbarWrapper>
     </AppBarWrapper>
   );
 }
