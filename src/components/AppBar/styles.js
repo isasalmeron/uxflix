@@ -8,7 +8,7 @@ export const Logo = styled.img`
   max-width: 90px;
 `;
 
-export const AppBarWrapper = withStyles({
+export const Wrapper = withStyles({
   root: {
     height: '74px',
     background: 'black',

@@ -1,21 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+
+import Box from '@material-ui/core/Box';
 
 import AppBar from '../AppBar';
 import Footer from '../Footer';
-
-const Wrapper = styled.div`
-  flex: 1;
-`;
 
 function PageDefault({ children, hasButton }) {
   return (
     <>
       <AppBar hasButton={hasButton} />
-      <Wrapper>
+      <Box flex={1}>
         {children}
-      </Wrapper>
+      </Box>
       <Footer />
     </>
   );

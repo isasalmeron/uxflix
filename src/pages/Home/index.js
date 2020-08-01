@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import PageDefault from '../../components/PageDefault';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
+import Loading from '../../components/Loading';
 import categoriesApi from '../../api/categories';
 
 function Home() {
@@ -19,9 +20,7 @@ function Home() {
   return (
     <PageDefault hasButton>
       {categories.length === 0 ? (
-        <div>
-          Loading...
-        </div>
+        <Loading size={80} />
       ) : (
         <>
           <BannerMain

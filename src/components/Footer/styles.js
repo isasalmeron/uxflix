@@ -1,26 +1,15 @@
 import styled from 'styled-components';
 
-export const FooterBase = styled.footer`
-  background: var(--black);
-  border-top: 2px solid var(--primary);
-  padding: 0px 56px;
-  color: var(--white);
-  text-align: center;
+import Box from '@material-ui/core/Box';
+import Link from '@material-ui/core/Link';
+
+export const Wrapper = styled(Box)`
+  border-top: 2px solid #CD0CFF;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 8px;
-
-  @media (max-width: 800px) {
-    padding: 0px 24px;
-  }
 `;
 
-export const TextLink = styled.a`
-  color: var(--primary);
+export const TextLink = styled(Link)`
+  color: #CD0CFF;
   text-decoration: none;
-`;
-
-export const ImgWrapper = styled.img`
-  max-width: 16px;
 `;

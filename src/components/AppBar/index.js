@@ -7,14 +7,14 @@ import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 
 import LogoImg from '../../assets/images/LogoImg.png';
 import { SecondaryButton } from '../Button';
-import { Logo, AppBarWrapper, ToolbarWrapper } from './styles';
+import { Wrapper, Logo, ToolbarWrapper } from './styles';
 
 function AppBar({ hasButton }) {
   const history = useHistory();
   const handleOnClickIcon = () => history.push('/');
 
   return (
-    <AppBarWrapper position="sticky">
+    <Wrapper position="sticky">
       <ToolbarWrapper>
         <IconButton
           aria-label="home"
@@ -28,7 +28,7 @@ function AppBar({ hasButton }) {
           </SecondaryButton>
         )}
       </ToolbarWrapper>
-    </AppBarWrapper>
+    </Wrapper>
   );
 }
 
