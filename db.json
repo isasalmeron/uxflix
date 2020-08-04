@@ -36,241 +36,283 @@
       "id": 1,
       "categoryId": 1,
       "title": "Ladies that UX Brasil",
-      "url": "https://www.youtube.com/watch?v=kb0O9DqMdcM"
+      "url": "https://www.youtube.com/watch?v=kb0O9DqMdcM",
+      "description": "Conversa com a Tereza Alux, product designer no Mercado Livre e diretora LATAM do Ladies that UX."
     },
     {
       "id": 2,
       "categoryId": 1,
       "title": "Como aproveitar melhor seu curso de UX",
-      "url": "https://www.youtube.com/watch?v=uPqYwDKV_7w"
+      "url": "https://www.youtube.com/watch?v=uPqYwDKV_7w",
+      "description": "Escolher um bom curso de UX é super trabalhoso. Aproveitar o curso é fundamental para não perder tempo e dinheiro."
     },
     {
       "id": 3,
       "categoryId": 1,
       "title": "Três novos livros de design para a minha coleção",
-      "url": "https://www.youtube.com/watch?v=1B9hpwA3j2c"
+      "url": "https://www.youtube.com/watch?v=1B9hpwA3j2c",
+      "description": "Chegaram três livros de design para a minha coleção: Designing for People, Pensar com Tipos e O ABC da Bauhaus."
+
     },
     {
       "id": 4,
       "categoryId": 1,
       "title": "O que mudou agora que o mundo mudou?",
-      "url": "https://www.youtube.com/watch?v=rleeJHEwkjk"
+      "url": "https://www.youtube.com/watch?v=rleeJHEwkjk",
+      "description": "O trabalho mudou. A vida mudou. E o design, mudou? Aqui está um novo ponto de vista sobre o que mudou. E para vocês, o que mudou agora que o mundo mudou?"
+
     },
     {
       "id": 5,
       "categoryId": 1,
       "title": "Criatividade e inspiração",
-      "url": "https://www.youtube.com/watch?v=nm7SiONDS2Q"
+      "url": "https://www.youtube.com/watch?v=nm7SiONDS2Q",
+      "description": "Inspiração! Que coisa importante para o nosso trabalho! O que inspira você? Como recarregar sua 'Energia Criativa'?"
     },
     {
       "id": 6,
       "categoryId": 1,
       "title": "Portfólio de designer júnior - Dicas e análise",
-      "url": "https://www.youtube.com/watch?v=1WI-AHWaHgs"
+      "url": "https://www.youtube.com/watch?v=1WI-AHWaHgs",
+      "description": "Como é o portfólio de um Designer Jr.? Mostra todo o trabalho? Só uma parte? Deve mostrar os estudos? Pode contar mentiras?"
     },
     {
       "id": 7,
       "categoryId": 1,
       "title": "Respondendo dúvidas sobre UX",
-      "url": "https://www.youtube.com/watch?v=5nv_JiSVLHs"
+      "url": "https://www.youtube.com/watch?v=5nv_JiSVLHs",
+      "description": "Respondendo algumas dúvidas do Instagram @daniel_uxnow."
     },
     {
       "id": 8,
       "categoryId": 2,
       "title": "Não sou criativo, posso ser UX Designer?",
-      "url": "https://www.youtube.com/watch?v=NavYyEpKj0U"
+      "url": "https://www.youtube.com/watch?v=NavYyEpKj0U",
+      "description": "Muita gente acredita que não pode ser designer por falta de criatividade. Será que isso é realmente verdade?"
     },
     {
       "id": 9,
       "categoryId": 2,
       "title": "Como atingir objetivos de carreira",
-      "url": "https://www.youtube.com/watch?v=ukiaI2-xPnM"
+      "url": "https://www.youtube.com/watch?v=ukiaI2-xPnM",
+      "description": "Aprenda a definir metas de carreira em UX Design!"
     },
     {
       "id": 10,
       "categoryId": 2,
       "title": "Pesquisas em UX",
-      "url": "https://www.youtube.com/watch?v=ovnebhk05vM"
+      "url": "https://www.youtube.com/watch?v=ovnebhk05vM",
+      "description": "Como fazer e como não fazer pesquisas de Design de Experiência do Usuário. Listei os erros mais comuns que percebo para te ajudar a entender cada vez melhor as necessidades do seu público."
     },
     {
       "id": 11,
       "categoryId": 2,
       "title": "Descobrindo produtos com bom design e UX",
-      "url": "https://www.youtube.com/watch?v=v8r_AIez4gI"
+      "url": "https://www.youtube.com/watch?v=v8r_AIez4gI",
+      "description": "Você sabe como identificar produtos com bom e mal design?"
     },
     {
       "id": 12,
       "categoryId": 2,
       "title": "Você sabe o que é UX design mesmo?",
-      "url": "https://www.youtube.com/watch?v=pih-M_6HNuc"
+      "url": "https://www.youtube.com/watch?v=pih-M_6HNuc",
+      "description": "Vamos discutir esse conceito que é fundamental para quem quer seguir uma carreira ajudando a criar produtos melhores centrados nos usuários."
     },
     {
       "id": 13,
       "categoryId": 3,
       "title": "O que é UX",
-      "url": "https://www.youtube.com/watch?v=WAi6ixIfdd4&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=1"
+      "url": "https://www.youtube.com/watch?v=WAi6ixIfdd4&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=1",
+      "description": "Resumidamente - UX é uma preocupação com a qualidade da relação de um usuário com um produto ou serviço."
     },
     {
       "id": 14,
       "categoryId": 3,
       "title": "O que é design?",
-      "url": "https://www.youtube.com/watch?v=zaFEEvHZgjw&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=2"
+      "url": "https://www.youtube.com/watch?v=zaFEEvHZgjw&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=2",
+      "description": "Design é, para a maioria das pessoas, uma camada apenas de aparência e estética. Grande engano."
     },
     {
       "id": 15,
       "categoryId": 3,
       "title": "Como fazer UX",
-      "url": "https://www.youtube.com/watch?v=ii_yO_at8Do&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=3"
+      "url": "https://www.youtube.com/watch?v=ii_yO_at8Do&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=3",
+      "description": "Uma das melhores abordagens para 'fazer' a UX de um produto, serviço, aplicativo ou artefato é chamada 'Design Centrado no Usuário'. Esse 'fazer' é no sentido de projetar."
     },
     {
       "id": 16,
       "categoryId": 3,
       "title": "Como definir o objetivo do seu produto",
-      "url": "https://www.youtube.com/watch?v=h7uE_F0zkm8&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=4"
+      "url": "https://www.youtube.com/watch?v=h7uE_F0zkm8&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=4",
+      "description": "A Experiência de uso de um produto, serviço, aplicativo, site ou artefato é diretamente relacionada à EXPECTATIVA do usuário com relação aos objetivos do produto."
     },
     {
       "id": 17,
       "categoryId": 3,
       "title": "Como conhecer seu usuário",
-      "url": "https://www.youtube.com/watch?v=KnFJAhiClnE&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=5"
+      "url": "https://www.youtube.com/watch?v=KnFJAhiClnE&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=5",
+      "description": "Para você saber mais sobre o seu usuário a primeira regra é: pare tudo o que está fazendo. Pegue um casaco. Vai para a rua. Observe. Entreviste. Converse com o seu usuário."
     },
     {
       "id": 18,
       "categoryId": 3,
       "title": "O que é uma persona?",
-      "url": "https://www.youtube.com/watch?v=kdUk7DZS6aQ&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=6"
+      "url": "https://www.youtube.com/watch?v=kdUk7DZS6aQ&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=6",
+      "description": "Uma persona é o que você aprendeu sobre 'quem é o usuario' e 'o que ele quer'demonstrado num formato 'físico', para ser referenciado sempre que houver uma dúvida sobre 'para quem é o meu produto' ou 'isso beneficia o meu usuário'."
     },
     {
       "id": 19,
       "categoryId": 3,
       "title": "Como criar personas?",
-      "url": "https://www.youtube.com/watch?v=q_NrzJBS7QI&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=7"
+      "url": "https://www.youtube.com/watch?v=q_NrzJBS7QI&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=7",
+      "description": "Como fazer sua Persona Principal e Persona Secundária baseadas em entrevistas exploratórias com seus usuários."
     },
     {
       "id": 20,
       "categoryId": 3,
       "title": "O que é escopo?",
-      "url": "https://www.youtube.com/watch?v=jAN1330de-s&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=8"
+      "url": "https://www.youtube.com/watch?v=jAN1330de-s&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=8",
+      "description": "O escopo é uma lista de promessas. O que prometemos criar com o produto e também o que não vamos fazer (fora do escopo)."
     },
     {
       "id": 21,
       "categoryId": 3,
       "title": "O que é arquitetura de informação?",
-      "url": "https://www.youtube.com/watch?v=vmvSMYaV4oE&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=9"
+      "url": "https://www.youtube.com/watch?v=vmvSMYaV4oE&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=9",
+      "description": "Arquitetura de informação é o arranjo e estruturação do seu conteúdo para que seja mais fácil de ser entendido por um determinado público em um determinado contexto."
     },
     {
       "id": 22,
       "categoryId": 3,
       "title": "O que é um wireframe?",
-      "url": "https://www.youtube.com/watch?v=INPlcg_BsGc&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=10"
+      "url": "https://www.youtube.com/watch?v=INPlcg_BsGc&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=10",
+      "description": "O Wireframe é o esqueleto de um site ou app e serve para ilustrar, de maneira simplificada, onde a informação fica numa página, qual a posição da navegação, conteúdo, e outras características de Arquitetura de Informação."
     },
     {
       "id": 23,
       "categoryId": 3,
       "title": "O que é design de interação?",
-      "url": "https://www.youtube.com/watch?v=7TVP7oxjl1U&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=11"
+      "url": "https://www.youtube.com/watch?v=7TVP7oxjl1U&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=11",
+      "description": "O Design de Interação é a vertente do design responsável por projetar o comportamento de artefatos interativos."
     },
     {
       "id": 24,
       "categoryId": 3,
       "title": "O que é uma interface?",
-      "url": "https://www.youtube.com/watch?v=BD4CnI2Zc1s&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=12"
+      "url": "https://www.youtube.com/watch?v=BD4CnI2Zc1s&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=12",
+      "description": "Interface é a camada de comunicação entre dois sistemas ou grupos. Uma pessoa e uma ferramenta, por exemplo."
     },
     {
       "id": 25,
       "categoryId": 3,
       "title": "Como fazer uma interface mais fácil",
-      "url": "https://www.youtube.com/watch?v=mgOYINElFqI&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=13"
+      "url": "https://www.youtube.com/watch?v=mgOYINElFqI&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=13",
+      "description": "Para fazer uma interface fácil de usar precisamos pensar, primeiramente, em dois aspectos: ser intuitiva e familiar para o usuário."
     },
     {
       "id": 26,
       "categoryId": 3,
       "title": "Como fazer uma interface mais difícil?",
-      "url": "https://www.youtube.com/watch?v=UkEXANW08lo&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=14"
+      "url": "https://www.youtube.com/watch?v=UkEXANW08lo&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=14",
+      "description": "Como fazer uma interface difícil e cheia de erros. Atrapalhar o usuário MESMO, de propósito."
     },
     {
       "id": 27,
       "categoryId": 3,
       "title": "Quem é responsável pela UX?",
-      "url": "https://www.youtube.com/watch?v=y39uwOsY0L0&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=15"
+      "url": "https://www.youtube.com/watch?v=y39uwOsY0L0&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70&index=15",
+      "description": "Adotar uma abordagem de Design Centrado no Usuário envolve múltiplos departamentos da empresa. Sendo assim, deveria ser uma responsabilidade coletiva."
     },
     {
       "id": 28,
       "categoryId": 4,
       "title": "Facilitando processo de compra em petshops",
-      "url": "https://www.youtube.com/watch?v=eZmBbok8N88"
+      "url": "https://www.youtube.com/watch?v=eZmBbok8N88",
+      "description": "Nesse episódio vamos revisar o case do Felipe do Vale. Ele buscou soluções para ajudar Petshops nesse momento de pandemia."
     },
     {
       "id": 29,
       "categoryId": 4,
       "title": "Apoiando vítimas de violência doméstica",
-      "url": "https://www.youtube.com/watch?v=96geDwJa5BI"
+      "url": "https://www.youtube.com/watch?v=96geDwJa5BI",
+      "description": "Nesse episódio vamos revisar o case do Bryan Peace. Ele buscou uma solução para ajudar vítimas de violência doméstica após identificar um aumento no número de mortes e uma redução de número de denúncias agravado pelo cenário de pandemia."
     },
     {
       "id": 30,
       "categoryId": 4,
       "title": "Ajudando academias a sobreviver no isolamento",
-      "url": "https://www.youtube.com/watch?v=rSBCV9247gM&t=1553s"
+      "url": "https://www.youtube.com/watch?v=rSBCV9247gM&t=1553s",
+      "description": "Nesse episódio vamos revisar o case da Michele Delgado. Ele buscou uma solução para ajudar academias a sobreviverem em um cenário de isolamento social."
     },
     {
       "id": 31,
       "categoryId": 4,
       "title": "Diminuindo acidentes com uso de celular no volante",
-      "url": "https://www.youtube.com/watch?v=22BlzbK9aVY"
+      "url": "https://www.youtube.com/watch?v=22BlzbK9aVY",
+      "description": "Nesse episódio vamos revisar o case do Andre Checchia. Ele buscou uma solução para ajudar a reduzir o número de acidentes causados pela mistura Celular e Volante."
     },
     {
       "id": 32,
       "categoryId": 4,
       "title": "Empoderando idosos e ajudando comércios locais",
-      "url": "https://www.youtube.com/watch?v=wuwaVXBOKsk&t=1s"
+      "url": "https://www.youtube.com/watch?v=wuwaVXBOKsk&t=1s",
+      "description": "Nesse episódio vamos revisar o case da Vivian Torres, aluna do Programa UX Unicórnio. Ela buscou uma solução para ajudar Idosos e Comércios Locais a minimizarem os danos causados pela Pandemia do COVID-19."
     },
     {
       "id": 33,
       "categoryId": 4,
       "title": "Conectando psicólogos e pacientes",
-      "url": "https://www.youtube.com/watch?v=gfLuaYI4ldQ&t=10s"
+      "url": "https://www.youtube.com/watch?v=gfLuaYI4ldQ&t=10s",
+      "description": "Nesse episódio vamos analisar o case de UX do Lucas Antunes. Ele investigou como conectar psicólogos e pacientes em um cenário de pandemia."
     },
     {
       "id": 34,
       "categoryId": 5,
       "title": "A interface precisa de espaço",
-      "url": "https://www.youtube.com/watch?v=TmWjsm1DHRw"
+      "url": "https://www.youtube.com/watch?v=TmWjsm1DHRw",
+      "description": "Importância de utilizar o famoso white space nas interfaces e além disso, os quatro fatores que influenciam o uso dos micro e macro espaçamentos no design."
     },
     {
       "id": 35,
       "categoryId": 5,
       "title": "O que é legibilidade e leiturabilidade",
-      "url": "https://www.youtube.com/watch?v=NFBmxiwqg8Q"
+      "url": "https://www.youtube.com/watch?v=NFBmxiwqg8Q",
+      "description": "Influência da legibilidade e leiturabilidade em interfaces digitais. Não sabe o que é? Dê play e aproveite o papo!"
     },
     {
       "id": 36,
       "categoryId": 5,
       "title": "Dicas de como escolher typefaces para a sua ui",
-      "url": "https://www.youtube.com/watch?v=mapdbKX_dNw"
+      "url": "https://www.youtube.com/watch?v=mapdbKX_dNw",
+      "description": "Várias dicas e técnicas para ajudar você a escolher suas typefaces."
     },
     {
       "id": 37,
       "categoryId": 5,
       "title": "Cores e seus significados parte 1",
-      "url": "https://www.youtube.com/watch?v=lDO7iLWBf3Q"
+      "url": "https://www.youtube.com/watch?v=lDO7iLWBf3Q",
+      "description": "Como as cores podem influenciar sentimentos e tomadas de decisão. Nessa primeira parte você também vai aprender o significado de algumas cores!"
     },
     {
       "id": 38,
       "categoryId": 5,
       "title": "Cores e seus significados parte 2",
-      "url": "https://www.youtube.com/watch?v=kmoahqQAFjM"
+      "url": "https://www.youtube.com/watch?v=kmoahqQAFjM",
+      "description": "Parte 2 do vídeo sobre o significado das cores. Como cores como o rosa, preto e o colorido influenciam o design da sua interface!"
     },
     {
       "id": 39,
       "categoryId": 5,
       "title": "Você conhece a anatomia de um link?",
-      "url": "https://www.youtube.com/watch?v=kLQy_PiT7h0"
+      "url": "https://www.youtube.com/watch?v=kLQy_PiT7h0",
+      "description": "Anatomia de um ícone e recomendações de como você pode criar o seu próprio ícone, do jeito certo. Ficou curioso? Solta o play!"
     },
     {
       "id": 40,
       "categoryId": 5,
       "title": "Três ferramentas para testar contraste de cor",
-      "url": "https://www.youtube.com/watch?v=Y9qp2jr52ZQ"
+      "url": "https://www.youtube.com/watch?v=Y9qp2jr52ZQ",
+      "description": "Três ferramentas que você pode utilizar para testar a acessibilidade e contraste das cores da sua interface."
     }
   ]
 }

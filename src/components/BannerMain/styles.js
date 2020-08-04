@@ -37,9 +37,9 @@ export const StyledTypography = styled(Typography)`
   margin-bottom: 32px;
 
   @media (max-width: 800px) {
-    font-size: ${({ mobileFontSize }) => mobileFontSize};
+    font-size: ${({ mobilefontsize }) => mobilefontsize};
     text-align: right;
-    display: ${({ isDescription }) => (isDescription ? 'none' : 'block')};
+    display: ${({ isdescription }) => (isdescription ? 'none' : 'block')};
   }
 `;
 

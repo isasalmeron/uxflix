@@ -9,7 +9,7 @@ function getAllWithVideos() {
       return formattedResponse;
     }
 
-    throw new Error('Não foi possível encontrar os dados.');
+    throw new Error();
   });
 }
 

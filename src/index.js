@@ -7,13 +7,15 @@ import Home from './pages/Home';
 import RegisterVideo from './pages/Register/Video';
 import RegisterCategory from './pages/Register/Category';
 import NotFound from './pages/NotFound';
+import WatchVideo from './pages/WatchVideo';
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
-      <Route path="/cadastro/video" component={RegisterVideo} />
-      <Route path="/cadastro/categoria" component={RegisterCategory} />
+      <Route path="/novo-video" component={RegisterVideo} />
+      <Route path="/nova-categoria" component={RegisterCategory} />
+      <Route path="/assistir/:videoId" exact component={WatchVideo} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>,

@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 
-export const VideoContainer = styled.div`
+import Box from '@material-ui/core/Box';
+
+export const VideoContainer = styled(Box)`
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%;
-
-  @media (max-width: 800px) {
-    display: none;
-  }
+  height: fill-available;
+  display: flow-root;
 `;
 
 export const ResponsiveIframe = styled.iframe`

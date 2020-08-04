@@ -16,14 +16,14 @@ function BannerMain({ videoTitle, videoDescription, url }) {
         <Wrapper>
           <StyledTypography
             fontSize="48px"
-            mobileFontSize="32px"
+            mobilefontsize="32px"
           >
             {videoTitle}
           </StyledTypography>
           <StyledTypography
             fontSize="24px"
-            mobileFontSize="16px"
-            isDescription
+            mobilefontsize="16px"
+            isdescription="true"
           >
             {videoDescription}
           </StyledTypography>
