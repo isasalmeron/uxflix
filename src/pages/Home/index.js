@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import PageDefault from '../../components/PageDefault';
+import Dialog from '../../components/Dialog';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Loading from '../../components/Loading';
@@ -8,25 +9,25 @@ import categoriesApi from '../../api/categories';
 
 function Home() {
   const [categories, setCategories] = useState([]);
+  const [loadVideosFail, setLoadVideosFail] = useState(false);
+
+  const handleOnCloseDialog = () => setLoadVideosFail(false);
 
   useEffect(() => {
     categoriesApi.getAllWithVideos().then((categoriesWithVideos) => {
       setCategories(categoriesWithVideos);
-    }).catch((err) => {
-      console.log(err);
+    }).catch(() => {
+      setLoadVideosFail(true);
     });
   }, []);
 
   return (
     <PageDefault hasButton>
-      {categories.length === 0 ? (
-        <Loading size={80} />
-      ) : (
+      {!loadVideosFail && categories.length === 0 && <Loading size={80} />}
+      {categories.length > 0 && (
         <>
           <BannerMain
-            videoTitle={categories[0].videos[0].title}
-            url={categories[0].videos[0].url}
-            videoDescription="Conversa com a Tereza Alux, product designer no Mercado Livre e diretora LATAM do Ladies that UX."
+            video={categories[0].videos[0]}
           />
           {categories.map((category, index) => (
             <Carousel
@@ -36,6 +37,10 @@ function Home() {
           ))}
         </>
       )}
+      <Dialog
+        open={loadVideosFail}
+        onClose={handleOnCloseDialog}
+      />
     </PageDefault>
   );
 }

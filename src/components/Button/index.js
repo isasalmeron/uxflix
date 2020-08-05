@@ -7,17 +7,16 @@ export const PrimaryButton = withStyles({
     backgroundColor: '#CD0CFF',
     textTransform: 'inherit',
     padding: '8px 24px',
-    margin: '16px',
     fontSize: '16px',
     fontWeight: 'normal',
 
     '@media (min-width: 800px)': {
-      fontSize: '20px',
-      padding: '12px 28px',
+      fontSize: '18px',
+      padding: '10px 24px',
     },
 
     '&:hover, &$focusVisible': {
-      opacity: '0.7',
+      opacity: '0.8',
       backgroundColor: '#CD0CFF',
       transition: 'opacity .3s ',
     },
@@ -38,6 +37,24 @@ export const SecondaryButton = withStyles({
       opacity: '1',
       border: '2px solid #CD0CFF',
       backgroundColor: 'black',
+    },
+  },
+})(PrimaryButton);
+
+export const InformationButton = withStyles({
+  root: {
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    border: '1px solid #CD0CFF',
+
+    '@media (min-width: 800px)': {
+      fontSize: '18px',
+      padding: '10px 24px',
+    },
+
+    '&:hover, &$focusVisible': {
+      opacity: '0.8',
+      backgroundColor: 'black',
+      transition: 'opacity .3s ',
     },
   },
 })(PrimaryButton);

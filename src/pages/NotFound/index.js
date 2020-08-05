@@ -9,7 +9,7 @@ import NotFoundImg from '../../assets/images/NotFound.png';
 
 const ButtonWrapper = styled.div`
   text-align: center;
-  padding-bottom: px;
+  padding: 16px;
 
   @media (max-width: 800px) {
     margin-bottom: 0px;

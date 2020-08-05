@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import Box from '@material-ui/core/Box';
+
 import useForm from '../../../hooks/useForm';
 import FormWrapper from '../../../components/FormWrapper';
 import PageDefault from '../../../components/PageDefault';
@@ -57,9 +59,11 @@ function RegisterCategory() {
             value={values.color}
             onChange={handleOnChange}
           />
-          <PrimaryButton type="submit">
-            Cadastrar
-          </PrimaryButton>
+          <Box p={2}>
+            <PrimaryButton type="submit">
+              Cadastrar
+            </PrimaryButton>
+          </Box>
         </form>
         {categories.length === 0 ? (
           <div>

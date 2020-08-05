@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
+import { Box } from '@material-ui/core';
+
 import useForm from '../../../hooks/useForm';
 import FormWrapper from '../../../components/FormWrapper';
 import PageDefault from '../../../components/PageDefault';
@@ -66,9 +68,11 @@ function RegisterVideo() {
             onChange={handleOnChange}
             suggestions={categoriesTitle}
           />
-          <PrimaryButton type="submit">
-            Cadastrar
-          </PrimaryButton>
+          <Box p={2}>
+            <PrimaryButton type="submit">
+              Cadastrar
+            </PrimaryButton>
+          </Box>
         </form>
         <Link to="/">
           Ir para home
