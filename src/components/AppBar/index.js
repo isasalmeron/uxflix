@@ -8,7 +8,7 @@ import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import Tooltip from '@material-ui/core/Tooltip';
 
 import LogoImg from '../../assets/images/LogoImg.png';
-import { SecondaryButton } from '../Button';
+import { SecondaryButton } from '../Buttons';
 import { Wrapper, Logo, ToolbarWrapper } from './styles';
 
 function AppBar({ hasButton }) {

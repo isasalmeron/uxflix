@@ -7,7 +7,7 @@ import useForm from '../../../hooks/useForm';
 import FormWrapper from '../../../components/FormWrapper';
 import PageDefault from '../../../components/PageDefault';
 import Field from '../../../components/Field';
-import { PrimaryButton } from '../../../components/Button';
+import { PrimaryButton } from '../../../components/Buttons';
 import videosApi from '../../../api/videos';
 import categoriesApi from '../../../api/categories';
 

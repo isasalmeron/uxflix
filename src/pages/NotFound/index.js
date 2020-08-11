@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { PrimaryButton } from '../../components/Button';
+import { PrimaryButton } from '../../components/Buttons';
 import PageDefault from '../../components/PageDefault';
 import Banner from '../../components/Banner';
 import NotFoundImg from '../../assets/images/NotFound.png';

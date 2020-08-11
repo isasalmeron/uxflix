@@ -12,13 +12,13 @@ import {
 
 const Transition = React.forwardRef((props, ref) => <Slide direction="up" ref={ref} {...props} />);
 
-function Dialog({ open, onClose }) {
+function ErrorDialog({ open, onClose }) {
   return (
     <MuiDialog
       PaperProps={{
         style: {
           backgroundColor: 'black',
-          color: 'white'
+          color: 'white',
         },
       }}
       TransitionComponent={Transition}
@@ -46,9 +46,9 @@ function Dialog({ open, onClose }) {
   );
 }
 
-Dialog.propTypes = {
+ErrorDialog.propTypes = {
   open: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
 };
 
-export default Dialog;
+export default ErrorDialog;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import PageDefault from '../../components/PageDefault';
-import Dialog from '../../components/Dialog';
+import ErrorDialog from '../../components/Dialogs/ErrorDialog';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Loading from '../../components/Loading';
@@ -11,7 +11,7 @@ function Home() {
   const [categories, setCategories] = useState([]);
   const [loadVideosFail, setLoadVideosFail] = useState(false);
 
-  const handleOnCloseDialog = () => setLoadVideosFail(false);
+  const handleOnCloseErrorDialog = () => setLoadVideosFail(false);
 
   useEffect(() => {
     categoriesApi.getAllWithVideos().then((categoriesWithVideos) => {
@@ -31,15 +31,16 @@ function Home() {
           />
           {categories.map((category, index) => (
             <Carousel
+              key={category.name}
               ignoreFirstVideo={index === 0}
               category={category}
             />
           ))}
         </>
       )}
-      <Dialog
+      <ErrorDialog
         open={loadVideosFail}
-        onClose={handleOnCloseDialog}
+        onClose={handleOnCloseErrorDialog}
       />
     </PageDefault>
   );

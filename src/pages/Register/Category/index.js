@@ -6,7 +6,7 @@ import useForm from '../../../hooks/useForm';
 import FormWrapper from '../../../components/FormWrapper';
 import PageDefault from '../../../components/PageDefault';
 import Field from '../../../components/Field';
-import { PrimaryButton } from '../../../components/Button';
+import { PrimaryButton } from '../../../components/Buttons';
 
 function RegisterCategory() {
   const initialCategory = {

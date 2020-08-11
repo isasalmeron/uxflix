@@ -1,28 +1,41 @@
 import styled from 'styled-components';
 
-const Container = styled.ul`
-  padding: 0;
-  margin: 0;
+import Box from '@material-ui/core/Box';
+
+const Container = styled(Box)`
+  .slick-slider {
+    &:hover .slick-next {
+      @media (min-width: 800px) {
+        display: block !important;
+      }
+    }
+
+    &:hover .slick-prev {
+      @media (min-width: 800px) {
+        display: block !important;
+      }
+    }
+  }
 
   .slick-prev,
   .slick-next {
     z-index: 50;
     top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 30px;
-    height: 30px;
+    height: 100%;
     transform: initial;
-    &:before {
-      font-size: 30px;
+    display: none !important;
+
+    &:hover {
+      color: white !important;
+      background: rgba(0,0,0,0.5);
     }
   }
   
   .slick-prev {
-    left: 0;
+    left: -5%;
   }
   .slick-next {
-    right: 16px;
+    right: 0;
   }
 `;
 

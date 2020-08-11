@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-const VideoCardContainer = styled.a`
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-  color: white;
+import Box from '@material-ui/core/Box';
+
+import { PrimaryButton, InformationButton } from '../../Buttons';
+
+export const VideoCardWrapper = styled(Box)`
   flex: 0 0 298px;
   width: 298px;
   height: 197px;
@@ -18,10 +18,15 @@ const VideoCardContainer = styled.a`
   align-items: flex-end;
   padding: 16px;
   transition: .4s;
+  margin-right: 16px;
  
   &:hover {
     border: 2px solid;
     width: 498px;
+  }
+
+  &:hover Button {
+    display: flex;
   }
   
   &:not(:first-child) {
@@ -30,7 +35,41 @@ const VideoCardContainer = styled.a`
 
   @media (max-width: 800px) {
     width: 260px;
+    padding: 8px;
+
+    &:hover {
+      width: 90vw;
+    }
   }
 `;
 
-export default VideoCardContainer;
+export const MoreInfoButton = styled(InformationButton)`
+  display: none;
+  padding: 6px 22px;
+  font-size: 14px;
+
+  @media (min-width: 800px) {
+    font-size: 16px;
+    padding: 8px 22px;
+  }
+`;
+
+export const WatchButton = styled(PrimaryButton)`
+  display: none;
+  padding: 6px 22px;
+  font-size: 14px;
+
+  @media (min-width: 800px) {
+    font-size: 16px;
+    padding: 8px 22px;
+  }
+`;
+
+export const ButtonWrapper = styled(Box)`
+  margin: 16px;
+  display: inline-block;
+
+  @media (max-width: 800px) {
+    display: block;
+  }
+`;

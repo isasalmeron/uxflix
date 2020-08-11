@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 export const PrimaryButton = withStyles({
   root: {
     color: 'white',
+    border: '1px solid #CD0CFF',
     backgroundColor: '#CD0CFF',
     textTransform: 'inherit',
     padding: '8px 24px',
@@ -15,8 +16,8 @@ export const PrimaryButton = withStyles({
       padding: '10px 24px',
     },
 
-    '&:hover, &$focusVisible': {
-      opacity: '0.8',
+    '&:hover': {
+      opacity: '0.9',
       backgroundColor: '#CD0CFF',
       transition: 'opacity .3s ',
     },
@@ -33,7 +34,7 @@ export const SecondaryButton = withStyles({
       padding: '8px 28px',
     },
 
-    '&:hover, &$focusVisible': {
+    '&:hover': {
       opacity: '1',
       border: '2px solid #CD0CFF',
       backgroundColor: 'black',
@@ -51,8 +52,8 @@ export const InformationButton = withStyles({
       padding: '10px 24px',
     },
 
-    '&:hover, &$focusVisible': {
-      opacity: '0.8',
+    '&:hover': {
+      opacity: '1',
       backgroundColor: 'black',
       transition: 'opacity .3s ',
     },

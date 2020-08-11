@@ -1,20 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { VideoCardGroupContainer, Title, Item } from './styles';
 import VideoCard from './VideoCard';
 import Slider from './Slider';
+import { VideoCardGroupContainer, Title } from './styles';
 
 function Carousel({ ignoreFirstVideo, category }) {
   return (
     <VideoCardGroupContainer>
-      {category.name && (
-        <>
-          <Title style={{ backgroundColor: category.color }}>
-            {category.name}
-          </Title>
-        </>
-      )}
+      <Title bgcolor={category.color}>
+        {category.name}
+      </Title>
       <Slider>
         {category.videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
@@ -22,13 +18,13 @@ function Carousel({ ignoreFirstVideo, category }) {
           }
 
           return (
-            <Item key={video.title}>
-              <VideoCard
-                videoTitle={video.title}
-                videoURL={video.url}
-                categoryColor={category.color}
-              />
-            </Item>
+            <VideoCard
+              key={video.title}
+              videoTitle={video.title}
+              videoURL={video.url}
+              videoDescription={video.description}
+              categoryColor={category.color}
+            />
           );
         })}
       </Slider>
@@ -44,7 +40,7 @@ Carousel.propTypes = {
   ignoreFirstVideo: PropTypes.bool,
   category: PropTypes.shape({
     name: PropTypes.string,
-    videos: PropTypes.array,
+    videos: PropTypes.arrayOf(PropTypes.object),
     color: PropTypes.string,
   }).isRequired,
 };
