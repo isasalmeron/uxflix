@@ -22,6 +22,7 @@ function Field({
           onChange={onChange}
           autoComplete={hasSuggestions ? 'off' : 'on'}
           list={hasSuggestions ? `suggestionFor_${fieldId}` : undefined}
+          isRequired
         />
         <Label.Text>
           {label}
